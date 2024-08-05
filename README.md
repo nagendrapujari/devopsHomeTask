@@ -21,8 +21,8 @@ The script provisions the following AWS resources:
 
 Before running the Terraform script, ensure you have:
 
-Terraform installed (version X.X.X or later).
-AWS CLI installed and configured with appropriate credentials.
+Terraform installed (version X.X.X or later).<br>
+AWS CLI installed and configured with appropriate credentials.<br>
 
 
 
