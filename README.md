@@ -39,6 +39,34 @@ Open the main.tf file and update the following placeholders to match your enviro
 
 'ami' in 'aws_instance' with your preferred Amazon Machine Image ID.
 
+'filename' in 'aws_lambda_function' with the path to your Lambda function deployment package.
+
+'TARGET_GROUP_ARN' in 'aws_lambda_function' with your Network Load Balancer target group ARN.
+
+3. **Initialize Terraform**
+
+Initialize Terraform to download provider plugins and set up the working directory:
+$terraform init
+
+4. **Review the Execution Plan**
+
+Generate and review an execution plan to ensure Terraform will make the expected changes:
+
+$terraform plan
+
+5. **Apply the Configuration**
+
+Apply the configuration to create the resources:
+
+$terraform apply
+
+Confirm the action by typing 'yes' when prompted.
+
+To view the current state of your infrastructure:
+
+$ terraform show list
+
+
 
 
 
