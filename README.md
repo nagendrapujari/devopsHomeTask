@@ -24,7 +24,12 @@ Before running the Terraform script, ensure you have:
 Terraform installed (version X.X.X or later).<br>
 AWS CLI installed and configured with appropriate credentials.<br>
 
+**Setup Instructions:**
 
+1.**Configure AWS Credentials.**
+Set up your AWS credentials using the AWS CLI:
+aws configure
+enter acces id and key when prompts:
 
 
 
