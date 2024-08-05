@@ -28,7 +28,7 @@ AWS CLI installed and configured with appropriate credentials.<br>
 
 1.**Configure AWS Credentials.** <br>
 Set up your AWS credentials using the AWS CLI: <br>
-aws configure <br>
+$aws configure <br>
 enter acces id and key when prompts:
 
 
