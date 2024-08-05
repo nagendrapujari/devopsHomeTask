@@ -31,6 +31,13 @@ Set up your AWS credentials using the AWS CLI: <br>
 $aws configure <br>
 enter acces id and key when prompts:
 
+2. **Customize the Configuration**
+
+Open the main.tf file and update the following placeholders to match your environment:
+
+'cidr_block' in 'aws_vpc' and 'aws_subnet' with your desired IP ranges.
+
+'ami' in 'aws_instance' with your preferred Amazon Machine Image ID.
 
 
 
