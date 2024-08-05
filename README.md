@@ -6,8 +6,8 @@ This repository contains a Terraform configuration to deploy a basic infrastruct
 
 The script provisions the following AWS resources:
 
-1.**VPC** - A Virtual Private Cloud for network isolation.
-2. **Subnet** - A public subnet within the VPC.
+1.**VPC** - A Virtual Private Cloud for network isolation.<br>
+2. **Subnet** - A public subnet within the VPC.<br>
 3. **Internet Gateway** - Allows access to the internet from the VPC.
 4. **Route Table** - Routes internet traffic through the Internet Gateway.
 5.**Security Group** - Configures firewall rules for inbound and outbound traffic.
